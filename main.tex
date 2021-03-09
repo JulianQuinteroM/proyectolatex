@@ -13,7 +13,7 @@
         \vspace*{1cm}
             
         \Huge
-        \textbf{Título del trabajo}
+        \textbf{Calistenia}
             
         \vspace{0.5cm}
         \LARGE
@@ -22,7 +22,10 @@
         \vspace{1.5cm}
             
         \textbf{Nombres y Apellidos del autor}
-            
+        \newline Julián David Quintero Marín
+        \newline
+        \newline
+        Informática II
         \vfill
             
         \vspace{0.8cm}
@@ -39,68 +42,39 @@
 \tableofcontents
 \newpage
 \section{Sección introductoria}\label{intro}
-Esta es la primera sección, podemos agregar algunos elementos adicionales y todo será escrito correctamente. Más aún, si una palabra es demasiado larga y tiene que ser truncada, babel tratará de truncarla correctamente dependiendo del idioma.
+En este trabajo se busca la forma de dar instrucciones a tres personas a través de indicaciones específicas para que realicen una acción determinada, sin explicar ningun paso, sólamente experimentando qué pueden entender sólo con las indicaciones entregadas.
 
 \section{Sección de contenido} \label{contenido}
-Esta sección es para agregar toda la información correspondiente con código, citas, etc.
-\subsection{Citación}
-Vamos a citar por ejemplo un artículo de \textbf{Albert Einstein} \cite{einstein}.
-También es posible citar libros \cite{dirac} o documentos en línea \cite{knuthwebsite}.\\\\
-Revisar en la última sección el formato de las referencias en IEEE.
+1. Levantar la hoja que está sobre las tarjetas fragilmente para que no se arrugue y moverla a otra posición, asugurándose de que la hoja quede sobre una superficie horizontal y plana.
+\newline
+2. Coger las tarjetas usando los dedos pulgar e índice y colocandolos cada uno en las puntas rojas de las tarjetas, luego levantarlas de forma que el punto verde de las tarjetas quede en la parte inferior.
+\newline
+3. Manteniendo la posición de las cartas, ponerlas sobre la línea (Y) dibujada en la hoja, de forma que la línea quede paralela a la base de las tarjetas.
+\newline
+4. Usar el delo del corazón y el anular para separar las tarjetas por su parte inferior, pero manteniendo el pulgar y el índice uniendo la parte superior de las tarjetas. Separar cada carta hasta la línea (X) y (Z), pero manteniendo la parte superior donde se unen estas, sobre la línea (Y).
+\newline
+5. Al formar una pirámide, asegurarse de que las cartas tengan un equilibrio para mantenerse y luego soltarlas.
 
-\subsection{Incluir código en el documento}
-%
-A continuación, se presenta el código \ref{codigo_ejemplo}, que nos permite incluir en el informe partes de programa que requieran una explicación adicional.
-\begin{lstlisting}[language=C++, label=codigo_ejemplo]
-// Programa desarrollado, compilado y ejecutado en https://www.onlinegdb.com
-#include <iostream>
-
-/*
- * Esto es un comentario de varias lineas
- */
-
-// Comentario de una sola linea
-
-#define N 10
-
-using namespace std;
-
-int main()
-{
-    
-    for( int i = 0 ; i < N ; i++ ){
-        
-        if( !(i % 2) )
-            cout << " El valor de i es -> " << i << endl;
-    }
-    
-    return 0;
-}
-
-//Resultado programa
-
-/*
-El valor de i es -> 0
-El valor de i es -> 2
-El valor de i es -> 4
-El valor de i es -> 6
-El valor de i es -> 8
-*/
-\end{lstlisting}
 En la sección \ref{imagenes}, se presentará como añadir ilustraciones al texto.
 
 \section{Inclusión de imágenes} \label{imagenes}
 
-En la Figura (\ref{fig:cpplogo}), se presenta el logo de C++ contenido en la carpeta images.
+En la Figura (\ref{fig:Cartas}), se presenta las tarjetas que se utilizaron en la actividad.
 
 \begin{figure}[h]
-\includegraphics[width=4cm]{cpplogo.png}
+\includegraphics[width=4cm]{Cartas.jpg}
 \centering
-\caption{Logo de C++}
-\label{fig:cpplogo}
+\label{fig:Cartas}
 \end{figure}
 
-Las secciones (\ref{intro}), (\ref{contenido}) y (\ref{imagenes}) dependen del estilo del documento.
+En la Figura (\ref{fig:Hoja_Base}), se presenta la imágen de la hoja base de las tarjetas
+
+\begin{figure}[h]
+\includegraphics[width=4cm]{Hoja_Base.jpg}
+\centering
+\label{fig:Hoja_Base}
+\end{figure}
+
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}
